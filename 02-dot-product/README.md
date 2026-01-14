@@ -1,0 +1,1 @@
+Wrote a cuda kernel for dot product this first iteration is suboptimal as it goes and does all of the multiplcation on the gpu but then it relies on the cpu to sum all of the indicies. This is suboptimal as I should try to do as much math as I can on the gpu and then just tranfer back the final answer as we dont care about the whole vector just one number

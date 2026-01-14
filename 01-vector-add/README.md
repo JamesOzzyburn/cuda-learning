@@ -1,0 +1,1 @@
+This is my first piece of cuda code. It makes two vectors and then mallocs the correct amount of memory in the gpu. It then tranfers the vectors from the host to the device then adds them together. It finishes by transfering the sum back from the device to host and printing out the result.
